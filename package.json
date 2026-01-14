@@ -1,0 +1,32 @@
+{
+  "name": "intro-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Simple Node backend",
+  "keywords": [
+    "node",
+    "backend",
+    "express"
+  ],
+  "homepage": "https://github.com/JosiahWenani18-dev/intro-backend#readme",
+  "bugs": {
+    "url": "https://github.com/JosiahWenani18-dev/intro-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosiahWenani18-dev/intro-backend.git"
+  },
+  "license": "ISC",
+  "author": "Josiah",
+  
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.3"
+  }
+}
